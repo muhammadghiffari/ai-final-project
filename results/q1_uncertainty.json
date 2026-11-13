@@ -1,0 +1,119 @@
+{
+  "brier_score": 0.010351551456172722,
+  "ece": 0.010685978900276082,
+  "reliability_bins": [
+    [
+      0.00030619333015803466,
+      0.00881057268722467,
+      908
+    ],
+    [
+      0.1276509664367361,
+      0.0,
+      1
+    ],
+    [
+      0.24221611942353038,
+      0.5,
+      2
+    ],
+    [
+      0.7510446200343442,
+      1.0,
+      3
+    ],
+    [
+      0.9992870245879811,
+      0.9830508474576272,
+      118
+    ]
+  ],
+  "abstain_analysis": {
+    "confidence>=0.8": {
+      "coverage": 0.9951550387596899,
+      "n_auto": 1027,
+      "accuracy_auto": 0.9902629016553067,
+      "n_to_human": 5,
+      "errors_remaining": 10
+    },
+    "confidence>=0.9": {
+      "coverage": 0.9941860465116279,
+      "n_auto": 1026,
+      "accuracy_auto": 0.9902534113060428,
+      "n_to_human": 6,
+      "errors_remaining": 10
+    },
+    "confidence>=0.95": {
+      "coverage": 0.9932170542635659,
+      "n_auto": 1025,
+      "accuracy_auto": 0.9902439024390244,
+      "n_to_human": 7,
+      "errors_remaining": 10
+    },
+    "confidence>=0.99": {
+      "coverage": 0.9874031007751938,
+      "n_auto": 1019,
+      "accuracy_auto": 0.9911678115799804,
+      "n_to_human": 13,
+      "errors_remaining": 9
+    }
+  },
+  "misclassified": [
+    {
+      "true": "spam",
+      "p_spam": 0.0031,
+      "text": "Oh my god! I've found your number again! I'm so glad, text me back xafter this msgs cst std ntwk chg £1.50"
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.0,
+      "text": "TBS/PERSOLVO. been chasing us since Sept for£38 definitely not paying now thanks to your information. We will "
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.0,
+      "text": "Would you like to see my XXX pics they are so hot they were nearly banned in the uk!"
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.0,
+      "text": "Hello darling how are you today? I would love to have a chat, why dont you tell me what you look like and what"
+    },
+    {
+      "true": "ham",
+      "p_spam": 0.9661,
+      "text": "Dont you have message offer"
+    },
+    {
+      "true": "ham",
+      "p_spam": 0.9929,
+      "text": "Unlimited texts. Limited minutes."
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.282,
+      "text": "#ERROR!"
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.0,
+      "text": "dating:i have had two of these. Only started after i sent a text to talk sport radio last week. Any connection"
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.0019,
+      "text": "Burger King - Wanna play footy at a top stadium? Get 2 Burger King before 1st Sept and go Large or Super with "
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.0,
+      "text": "Hi this is Amy, we will be sending you a free phone number in a couple of days, which will give you an access "
+    },
+    {
+      "true": "spam",
+      "p_spam": 0.0001,
+      "text": "In The Simpsons Movie released in July 2007 name the band that died at the start of the film? A-Green Day, B-B"
+    }
+  ],
+  "share_extreme_predictions": 0.9874031007751938
+}

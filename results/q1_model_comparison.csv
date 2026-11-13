@@ -1,0 +1,8 @@
+model,cv_accuracy,test_accuracy,precision,recall,f1,best_params
+BASELINE: Count + MultinomialNB (default),,0.9806201550387597,0.9576271186440678,0.8828125,0.9186991869918699,default
+Count-Word + MultinomialNB,0.9866666666666667,0.9806201550387597,0.9354838709677419,0.90625,0.9206349206349206,"{'nb__alpha': 0.1, 'vec__min_df': 1, 'vec__ngram_range': (1, 1)}"
+TFIDF-Word + MultinomialNB,0.9876363636363636,0.9796511627906976,0.9572649572649573,0.875,0.9142857142857143,"{'nb__alpha': 0.01, 'vec__ngram_range': (1, 2), 'vec__sublinear_tf': False}"
+TFIDF-Char + MultinomialNB,0.9895757575757577,0.9893410852713178,0.9915966386554622,0.921875,0.9554655870445344,"{'nb__alpha': 0.05, 'vec__ngram_range': (2, 4)}"
+TFIDF-Word+Char + MultinomialNB,0.9903030303030302,0.9893410852713178,0.9834710743801653,0.9296875,0.9558232931726908,{'nb__alpha': 0.003}
+TFIDF-Word + ComplementNB,0.9847272727272728,0.9825581395348837,0.9296875,0.9296875,0.9296875,"{'nb__alpha': 0.05, 'vec__ngram_range': (1, 3)}"
+Binary-Word + BernoulliNB,0.9881212121212121,0.9874031007751938,1.0,0.8984375,0.9465020576131687,"{'nb__alpha': 0.03, 'vec__ngram_range': (1, 1)}"

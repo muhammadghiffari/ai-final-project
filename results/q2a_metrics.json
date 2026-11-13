@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "model": "Perceptron (default)",
+      "tuned": false,
+      "cv_accuracy_train": 0.85375,
+      "best_params": "default",
+      "test_accuracy": 0.82,
+      "precision": 0.78125,
+      "recall": 0.6944444444444444,
+      "f1": 0.7352941176470589,
+      "TN": 114,
+      "FP": 14,
+      "FN": 22,
+      "TP": 50,
+      "nested_cv_mean": 0.866,
+      "nested_cv_std": 0.05791372894228104
+    },
+    {
+      "model": "k-NN (default, k=5)",
+      "tuned": false,
+      "cv_accuracy_train": 0.9225,
+      "best_params": "default",
+      "test_accuracy": 0.905,
+      "precision": 0.8840579710144928,
+      "recall": 0.8472222222222222,
+      "f1": 0.8652482269503546,
+      "TN": 120,
+      "FP": 8,
+      "FN": 11,
+      "TP": 61,
+      "nested_cv_mean": 0.9150000000000001,
+      "nested_cv_std": 0.015916448515084416
+    },
+    {
+      "model": "Perceptron (Averaged, tuned)",
+      "tuned": true,
+      "cv_accuracy_train": 0.9400000000000001,
+      "best_params": "{'clf__alpha': 0.01, 'clf__class_weight': None, 'clf__penalty': 'l2'}",
+      "test_accuracy": 0.94,
+      "precision": 0.9285714285714286,
+      "recall": 0.9027777777777778,
+      "f1": 0.9154929577464789,
+      "TN": 123,
+      "FP": 5,
+      "FN": 7,
+      "TP": 65,
+      "nested_cv_mean": 0.9436666666666667,
+      "nested_cv_std": 0.014544949486180916
+    },
+    {
+      "model": "k-NN (tuned)",
+      "tuned": true,
+      "cv_accuracy_train": 0.93625,
+      "best_params": "{'clf__n_neighbors': 27, 'clf__p': 2, 'clf__weights': 'distance', 'weight__weights': (1, 1, 1)}",
+      "test_accuracy": 0.915,
+      "precision": 0.8873239436619719,
+      "recall": 0.875,
+      "f1": 0.8811188811188811,
+      "TN": 120,
+      "FP": 8,
+      "FN": 9,
+      "TP": 63,
+      "nested_cv_mean": 0.9223333333333332,
+      "nested_cv_std": 0.01806162291219207
+    }
+  ],
+  "perceptron_weights_standardized": {
+    "JamBelajar": 1.9529826268997024,
+    "Kehadiran": 0.5305156643234747,
+    "TugasSelesai": 1.6890413625882184
+  },
+  "data_rows": 1000,
+  "random_state": 42
+}

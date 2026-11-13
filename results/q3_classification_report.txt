@@ -1,0 +1,7 @@
+BEST MODEL: NN 10-256-256-256-4  (val acc 99.8404%, test acc 99.8037%)
+
+Class  Precision    Recall        F1   Support   Meaning
+0         0.9978    0.9995    0.9987     46201   Calm wind, low solar radiation
+1         0.9993    0.9966    0.9979     29926   Calm wind, high solar radiation
+2         0.9964    0.9990    0.9977     17260   Strong wind, low solar radiation
+3         0.9981    0.9939    0.9960     10023   Strong wind, high solar radiation

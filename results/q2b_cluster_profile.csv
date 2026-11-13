@@ -1,0 +1,4 @@
+,jumlah,Umur_mean,Umur_min,Umur_max,Pembelian_mean,Pembelian_min,Pembelian_max,silhouette,nama_segmen,rentang_umur,rentang_belanja
+0,300,23.75,18,29,201211.77,102368,299569,0.84,Budget - Young,18-29 yrs,IDR 102k - IDR 300k
+1,307,53.87,42,64,554728.62,302050,799883,0.6,Mid-range - Senior,42-64 yrs,IDR 302k - IDR 800k
+2,293,36.78,30,44,1113537.15,701062,1499666,0.56,Premium - Adult,30-44 yrs,IDR 701k - IDR 1.50M

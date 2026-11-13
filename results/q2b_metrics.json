@@ -1,0 +1,98 @@
+{
+  "best_k": 3,
+  "rows_in_file": 900,
+  "evaluation": [
+    {
+      "k": 2,
+      "inertia": 785.8055746185175,
+      "silhouette": 0.5690450880238046,
+      "davies_bouldin": 0.5898198763824287,
+      "calinski_harabasz": 1158.9973695907036,
+      "in_allowed_range": false
+    },
+    {
+      "k": 3,
+      "inertia": 253.34141265587664,
+      "silhouette": 0.6676162198628787,
+      "davies_bouldin": 0.5234208858890194,
+      "calinski_harabasz": 2738.1088987850826,
+      "in_allowed_range": true
+    },
+    {
+      "k": 4,
+      "inertia": 179.88295842129585,
+      "silhouette": 0.5937690283719623,
+      "davies_bouldin": 0.6534947829969971,
+      "calinski_harabasz": 2690.0447914070714,
+      "in_allowed_range": true
+    },
+    {
+      "k": 5,
+      "inertia": 136.94526229868734,
+      "silhouette": 0.5437490600689616,
+      "davies_bouldin": 0.8024936672359508,
+      "calinski_harabasz": 2717.206066969109,
+      "in_allowed_range": true
+    },
+    {
+      "k": 6,
+      "inertia": 117.44323366939572,
+      "silhouette": 0.5422434595468069,
+      "davies_bouldin": 0.7485826830276466,
+      "calinski_harabasz": 2561.5877596387086,
+      "in_allowed_range": false
+    },
+    {
+      "k": 7,
+      "inertia": 101.05059538736293,
+      "silhouette": 0.434632571048324,
+      "davies_bouldin": 0.8187008377824441,
+      "calinski_harabasz": 2502.3138367852007,
+      "in_allowed_range": false
+    }
+  ],
+  "profile": [
+    {
+      "index": 0,
+      "jumlah": 300,
+      "Umur_mean": 23.746666666666666,
+      "Umur_min": 18,
+      "Umur_max": 29,
+      "Pembelian_mean": 201211.76666666666,
+      "Pembelian_min": 102368,
+      "Pembelian_max": 299569,
+      "silhouette": 0.8392379333507566,
+      "nama_segmen": "Budget - Young",
+      "rentang_umur": "18-29 yrs",
+      "rentang_belanja": "IDR 102k - IDR 300k"
+    },
+    {
+      "index": 1,
+      "jumlah": 307,
+      "Umur_mean": 53.86970684039088,
+      "Umur_min": 42,
+      "Umur_max": 64,
+      "Pembelian_mean": 554728.6221498371,
+      "Pembelian_min": 302050,
+      "Pembelian_max": 799883,
+      "silhouette": 0.6017069028510843,
+      "nama_segmen": "Mid-range - Senior",
+      "rentang_umur": "42-64 yrs",
+      "rentang_belanja": "IDR 302k - IDR 800k"
+    },
+    {
+      "index": 2,
+      "jumlah": 293,
+      "Umur_mean": 36.784982935153586,
+      "Umur_min": 30,
+      "Umur_max": 44,
+      "Pembelian_mean": 1113537.1535836176,
+      "Pembelian_min": 701062,
+      "Pembelian_max": 1499666,
+      "silhouette": 0.5609528965736553,
+      "nama_segmen": "Premium - Adult",
+      "rentang_umur": "30-44 yrs",
+      "rentang_belanja": "IDR 701k - IDR 1.50M"
+    }
+  ]
+}

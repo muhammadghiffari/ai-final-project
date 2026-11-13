@@ -1,0 +1,171 @@
+{
+  "n_models_trained": 12,
+  "best_model": {
+    "architecture": "10-256-256-256-4",
+    "layers": 3,
+    "width": 256,
+    "n_params": 135428,
+    "epochs": 56,
+    "val_accuracy": 0.9984044096315636,
+    "test": {
+      "accuracy": 0.9980369403345904,
+      "precision": 0.9979038625151624,
+      "recall": 0.9972495769350429,
+      "f1": 0.9975746089855132
+    },
+    "confusion_matrix": [
+      [
+        46178,
+        21,
+        2,
+        0
+      ],
+      [
+        98,
+        29825,
+        0,
+        3
+      ],
+      [
+        2,
+        0,
+        17242,
+        16
+      ],
+      [
+        0,
+        1,
+        60,
+        9962
+      ]
+    ]
+  },
+  "best_per_depth": [
+    {
+      "hidden_layers": 1,
+      "neurons_per_layer": 256,
+      "architecture": "10-256-4",
+      "parameters": 3844,
+      "epochs": 70,
+      "train_time_s": 99.9,
+      "val_accuracy": 0.8305047867711053,
+      "test_accuracy": 0.8304516004254907,
+      "precision_macro": 0.8282278940990992,
+      "recall_macro": 0.803192853309703,
+      "f1_macro": 0.811980717506193
+    },
+    {
+      "hidden_layers": 2,
+      "neurons_per_layer": 256,
+      "architecture": "10-256-256-4",
+      "parameters": 69636,
+      "epochs": 70,
+      "train_time_s": 361.7,
+      "val_accuracy": 0.9960110240789092,
+      "test_accuracy": 0.9951938884053767,
+      "precision_macro": 0.9945192141545258,
+      "recall_macro": 0.9928111238627353,
+      "f1_macro": 0.9936502844846837
+    },
+    {
+      "hidden_layers": 3,
+      "neurons_per_layer": 256,
+      "architecture": "10-256-256-256-4",
+      "parameters": 135428,
+      "epochs": 56,
+      "train_time_s": 669.1,
+      "val_accuracy": 0.9984044096315636,
+      "test_accuracy": 0.9980369403345904,
+      "precision_macro": 0.9979038625151624,
+      "recall_macro": 0.9972495769350429,
+      "f1_macro": 0.9975746089855132
+    }
+  ],
+  "best_per_width": [
+    {
+      "hidden_layers": 3,
+      "neurons_per_layer": 32,
+      "architecture": "10-32-32-32-4",
+      "parameters": 2596,
+      "epochs": 70,
+      "train_time_s": 72.1,
+      "val_accuracy": 0.8580166328208104,
+      "test_accuracy": 0.8539309544531477,
+      "precision_macro": 0.8516963139462693,
+      "recall_macro": 0.8285524096843733,
+      "f1_macro": 0.8371290371597033
+    },
+    {
+      "hidden_layers": 3,
+      "neurons_per_layer": 64,
+      "architecture": "10-64-64-64-4",
+      "parameters": 9284,
+      "epochs": 70,
+      "train_time_s": 245.9,
+      "val_accuracy": 0.9736244076975148,
+      "test_accuracy": 0.9720916739193501,
+      "precision_macro": 0.9632130510744876,
+      "recall_macro": 0.9578496565109542,
+      "f1_macro": 0.960336641225673
+    },
+    {
+      "hidden_layers": 3,
+      "neurons_per_layer": 128,
+      "architecture": "10-128-128-128-4",
+      "parameters": 34948,
+      "epochs": 70,
+      "train_time_s": 393.4,
+      "val_accuracy": 0.998090126680205,
+      "test_accuracy": 0.9978918866647326,
+      "precision_macro": 0.9977819321573119,
+      "recall_macro": 0.9969414031588991,
+      "f1_macro": 0.9973580559608264
+    },
+    {
+      "hidden_layers": 3,
+      "neurons_per_layer": 256,
+      "architecture": "10-256-256-256-4",
+      "parameters": 135428,
+      "epochs": 56,
+      "train_time_s": 669.1,
+      "val_accuracy": 0.9984044096315636,
+      "test_accuracy": 0.9980369403345904,
+      "precision_macro": 0.9979038625151624,
+      "recall_macro": 0.9972495769350429,
+      "f1_macro": 0.9975746089855132
+    }
+  ],
+  "stages": [
+    [
+      0.003,
+      45
+    ],
+    [
+      0.001,
+      15
+    ],
+    [
+      0.0003,
+      10
+    ]
+  ],
+  "batch_size": 1024,
+  "features": [
+    "Pressure",
+    "global_radiation",
+    "temp_mean(c)",
+    "temp_min(c)",
+    "temp_max(c)",
+    "Wind_Speed",
+    "Wind_Bearing",
+    "temp_range",
+    "bearing_sin",
+    "bearing_cos"
+  ],
+  "class_desc": {
+    "0": "Calm wind, low solar radiation",
+    "1": "Calm wind, high solar radiation",
+    "2": "Strong wind, low solar radiation",
+    "3": "Strong wind, high solar radiation"
+  }
+}

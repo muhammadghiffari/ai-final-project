@@ -1,0 +1,29 @@
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+*/venv/
+*/env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE & system artifacts
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs & temp files
+*.tmp
+*.log
+.gradio/
+

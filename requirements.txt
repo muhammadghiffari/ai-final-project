@@ -1,0 +1,10 @@
+# Versi yang dipakai saat pengembangan/pengujian (Python 3.12).
+# Jika instalasi gagal karena versi Python, gunakan:  pip install -U scikit-learn pandas numpy matplotlib joblib gradio
+# lalu latih ulang model dengan:  python run_all.py
+scikit-learn==1.9.1
+numpy==2.5.4
+pandas==3.0.6
+matplotlib==3.11.2
+joblib==1.6.0
+scipy==1.18.1
+gradio==6.31.0
